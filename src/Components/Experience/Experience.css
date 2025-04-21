@@ -1,0 +1,45 @@
+.experience-details{
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    text-align: initial;
+}
+.exp-data{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    width: 10rem;
+}
+.exp-data img{
+    width: 24px;
+}
+.exp-detail-left{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    border: 0.1rem solid rgb(53, 53, 53);
+    border-color: rgb(163, 163, 163);
+    padding: 1.5rem;
+    border-radius: 2rem;
+    width: 600px;
+}
+.experience{
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
+    padding-top: 100px;
+    padding-bottom: 120px;
+    animation: mywork 2s;
+}
+.exp-detail-sec{
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+}
+.exp-head{
+    text-align: center;
+}

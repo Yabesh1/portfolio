@@ -1,0 +1,97 @@
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    padding-top: 200px;
+    animation: mywork 2s;
+    padding-bottom: 120px;
+}
+.banner-img{
+    width: 350px;
+}
+.banner-img img{
+    width: 100%;
+    border-radius: 50%;
+}
+.banner-text{
+    text-align: center;
+    align-self: center;
+}
+.banner-text-p2{
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+.banner-text p{
+    font-weight: 600;
+}
+.banner-text-p2{
+    text-align: center;
+}
+.title{
+    font-size: 3rem;
+    text-align: center;
+}
+.banner-social{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+.banner-social .phone,
+.whatsapp,
+.email,
+.linkedin,
+.github{
+    font-size: 32px;
+}
+.banner-btn{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+.btn{
+    background-color: transparent;
+    padding: 1rem;
+    border-radius: 2rem;
+    width: 8rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    font-size: 14px;
+}
+.btn-color-1,
+.btn-color-2{
+    border: 0.1rem solid rgb(53, 53, 53);
+}
+.btn-color-1:hover,
+.btn-color-2:hover{
+    cursor: pointer;
+}
+.btn-color-2,
+.btn-color-1:hover{
+    background-color: rgb(53, 53, 53);
+    color: white;
+}
+.btn-color-2:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+.btn-color-1{
+    background: none;
+}
+.btn-color-1:hover{
+    background-color: rgb(255, 255, 255) 0.1rem;
+}
+.banner-social .phone:hover,.linkedin:hover{
+    color: rgb(44, 44, 155);
+}
+.banner-social .whatsapp:hover{
+    color: rgb(13, 180, 13);
+}
+.banner-social .email:hover{
+    color: rgb(212, 24, 24);
+}
+.banner-social .github:hover{
+    color: rgb(0, 0, 0);
+}

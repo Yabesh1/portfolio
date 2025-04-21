@@ -1,0 +1,30 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+    position: fixed;
+    background-color: white;
+    width: 80%;
+}
+.navbar-menu{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+.navbar-menu a{
+    font-size: 18px;
+}
+.navbar button{
+    background-color: transparent;
+    padding: 1rem;
+    border-radius: 2rem;
+    font-weight: 500;
+}
+.navbar button:hover{
+    background-color: rgb(53, 53, 53);
+    color: white;
+}
+.navbar-title{
+    cursor: pointer;
+}
