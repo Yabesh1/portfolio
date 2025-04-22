@@ -99,10 +99,10 @@
 }
 @media only screen and (max-width:431px){
     .banner{
-        padding-top: 120px;
+        padding-top: 140px;
         gap: 3rem;
         flex-direction: column;
-        padding-bottom: 80px;
+        padding-bottom: 60px;
     }
     .banner-img{
         width: 250px;
