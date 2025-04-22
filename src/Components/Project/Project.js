@@ -42,10 +42,6 @@ const Project = () => {
                     <h2>Food Delivery App</h2>
                     <p>A responsive and user-friendly food delivery web application built with React.js.
                         It allows users to browse menus, place orders, and enjoy seamless navigation.
-                        Deployed live at:
-                        <a href="https://yabesh-food-delivery-app.netlify.app/" target="_blank" rel="noopener noreferrer">
-                            https://yabesh-food-delivery-app.netlify.app/
-                        </a>
                     </p>
                     <div className='btn-source'>
                         <a href="https://yabesh-food-delivery-app.netlify.app/" target="_blank" rel="noopener noreferrer">
