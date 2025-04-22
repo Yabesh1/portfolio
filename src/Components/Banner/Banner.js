@@ -14,7 +14,8 @@ const Banner = () => {
                 <p className='banner-text-p2'>Frontend Developer</p>
                 <div className='banner-btn'>
                     <a href='/Yabesh-Resume.pdf' download className='btn btn-color-1'>Download CV</a>
-                    <button className='btn btn-color-2'>Contact Info</button>
+                    <a href='#contact'>
+                    <button className='btn btn-color-2'>Contact Info</button></a>
                 </div>
 
                 <div className='banner-social'>
