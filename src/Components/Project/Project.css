@@ -5,6 +5,8 @@
     gap: 60px;
     padding: 140px 0px;
     animation: mywork 2s;
+    width: 80%;
+    margin: auto;
 }
 .project-head{
     text-align: center;
@@ -50,6 +52,18 @@
     background-color: black;
     color: white;
 }
-.project-detail:hover{
-    
+
+@media only screen and (min-width:768px) and (max-width: 1024px){
+    .project-list{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+@media only screen and (max-width:431px){
+    .project-list{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .project{
+        padding: 70px 0px;
+    }
+
 }

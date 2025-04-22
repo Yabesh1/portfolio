@@ -2,10 +2,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 0px;
+    padding: 20px;
     position: fixed;
     background-color: white;
-    width: 80%;
+    width: 100%;
 }
 .navbar-menu{
     display: flex;
@@ -27,4 +27,21 @@
 }
 .navbar-title{
     cursor: pointer;
+}
+
+@media only screen and (min-width:768px) and (max-width: 1024px){
+    .navbar button{
+        padding: 14px;
+    }
+}
+@media only screen and (max-width:431px){
+    .navbar-menu{
+        display: none;
+    }
+    .navbar{
+        position: fixed;
+    }
+    .navbar button{
+        padding: 0.8rem;
+    }
 }

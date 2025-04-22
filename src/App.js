@@ -8,6 +8,7 @@ import Navbar from './Components/Navbar/Navbar';
 import Project from './Components/Project/Project';
 import "bootstrap-icons/font/bootstrap-icons.css";
 
+
 function App() {
   return (
     <div className="App">

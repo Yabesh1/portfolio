@@ -34,6 +34,8 @@
     padding-top: 100px;
     padding-bottom: 120px;
     animation: mywork 2s;
+    width: 80%;
+    margin: auto;
 }
 .exp-detail-sec{
     display: flex;
@@ -42,4 +44,13 @@
 }
 .exp-head{
     text-align: center;
+}
+@media only screen and (max-width:431px){
+    .experience-details{
+        gap: 0.5rem;
+    }
+    .experience{
+        padding-bottom: 60px;
+        padding-top: 60px;
+    }
 }
