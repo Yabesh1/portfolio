@@ -39,14 +39,24 @@ const Project = () => {
                     </div>
                 </div>
                 <div className='project-detail'>
-                    <h2>Portfolio</h2>
-                    <p>A personal portfolio website developed using React.js to showcase my projects and skills.
-                        It features a responsive design, smooth navigation, and interactive sections highlighting my work.</p>
+                    <h2>Food Delivery App</h2>
+                    <p>A responsive and user-friendly food delivery web application built with React.js.
+                        It allows users to browse menus, place orders, and enjoy seamless navigation.
+                        Deployed live at:
+                        <a href="https://yabesh-food-delivery-app.netlify.app/" target="_blank" rel="noopener noreferrer">
+                            https://yabesh-food-delivery-app.netlify.app/
+                        </a>
+                    </p>
                     <div className='btn-source'>
-                        <button>View</button>
-                        <button>Github</button>
+                        <a href="https://yabesh-food-delivery-app.netlify.app/" target="_blank" rel="noopener noreferrer">
+                            <button>View</button>
+                        </a>
+                        <a href="https://github.com/Yabesh1/Food-delivery-app" target="_blank" rel="noopener noreferrer">
+                            <button>GitHub</button>
+                        </a>
                     </div>
                 </div>
+
             </div>
         </div>
     );
